@@ -62,4 +62,17 @@ const mynewArray = [200,300,4000,6000]
 function returnSecondvalue(getArray){
     return getArray[3]
 }
-console.log(returnSecondvalue(mynewArray));
+// console.log(returnSecondvalue(mynewArray));
+
+
+// Immedisately Invoked Function Expression (IIFE)
+
+(function chai(){
+
+    console.log(`DB Connected`);
+}) ();
+
+
+( (name) => {
+    console.log(`DB connected 2 ${name}`);
+} ) ('Ratnesh')

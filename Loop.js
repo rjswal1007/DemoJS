@@ -1,6 +1,5 @@
 // For Loop 
 
-
 for (let index = 0; index <8; index++) {
     const element = index;
     if (element == 5){
@@ -81,8 +80,6 @@ for (const num of arr3) {
     // console.log(num);
     
 }
-
-
 
 // Maps
 

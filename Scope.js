@@ -40,7 +40,11 @@ const addtwonum = (num1, num2) => {
 }
 console.log(addtwonum(3,4));
 
-// Impeset returns
+
+
+// Impeset returns   [without using return we can execute  the code in a single line]
+// if you are using the obects do you have to use like this ({""})
 
 const addtwonum1 = (num1, num2) => (num1 + num2)
 console.log(addtwonum1(3,4))
+
