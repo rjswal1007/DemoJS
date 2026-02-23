@@ -7,7 +7,7 @@ const newNum = myNum.filter((num) => {
 
 })
 
-// console.log(newNum);
+console.log(newNum);
 
 // Second types 
 
@@ -41,6 +41,8 @@ const books = [
 
 
 //******** Maps & Filter ************//
+
+  
 const userbooks = books.filter ( (BK) => BK.genre === 'Fiction')
 
 
@@ -61,3 +63,5 @@ const number = myArr
 
 
 console.log(number);
+
+

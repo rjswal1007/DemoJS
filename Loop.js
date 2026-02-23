@@ -1,5 +1,11 @@
 // For Loop 
 
+for (let i = 1; i<=10; i++) {
+    console.log(i);
+}
+
+// loop in between somew this write 
+
 for (let index = 0; index <8; index++) {
     const element = index;
     if (element == 5){
@@ -49,6 +55,14 @@ for (let index = 1; index <=10; index++) {
 
 ///   While Loop
 
+let i = 2;
+
+while (i <=8){
+    console.log(i);
+    i++;
+}
+
+// While with array
 
 let arr1 = ['sandeep', 'shyam', 'jasneek'];
 let arr = 0;
